@@ -1,0 +1,29 @@
+{
+    "compilerOptions": {
+      "types": ["sequelize" /* other types */],
+      "module": "commonjs",
+      "declaration": true,
+      "removeComments": true,
+      "emitDecoratorMetadata": true,
+      "experimentalDecorators": true,
+      "allowSyntheticDefaultImports": true,
+      "target": "ES2021",
+      "sourceMap": true,
+      "outDir": "./dist",
+      "baseUrl": ".",
+      "paths": {
+        "@app/*": ["src/app/*"],
+        "@config/*": ["src/config/*"],
+        "@database/*": ["src/database/*"],
+        "@models/*": ["src/models/*"]
+      },
+      "incremental": true,
+      "skipLibCheck": true,
+      "strictNullChecks": false,
+      "noImplicitAny": false,
+      "strictBindCallApply": false,
+      "forceConsistentCasingInFileNames": false,
+      "noFallthroughCasesInSwitch": false
+    }
+  }
+  
